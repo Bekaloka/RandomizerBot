@@ -5,7 +5,7 @@ import random
 import string
 import logging
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
-from telegram.ext: (
+from telegram.ext import (
     Application,
     CommandHandler,
     CallbackQueryHandler,
